@@ -1,0 +1,78 @@
+h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+
+  .homecontentas {
+      background-image: url('./homepagebackgroung.jpg');
+      height: 680px;
+  }
+
+  .homecontentas h2 {
+      margin-top: 56px;
+      font-weight: bold;
+      font-size: 25px;
+      margin-left: 223px;
+      color: #4e524f;
+      font-family: cursive;
+  }
+  .content {
+      color: #5e7159;
+      font-size: 23px;
+      text-align: start;
+      width: 444px;
+      float: right;
+      font-family: cursive;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  
+  .buttoncontent {
+      align-items: center;
+      display: block;
+  }
+  .homebutton {
+      background-color: #d67530;
+      height: 68px;
+      width: auto;
+      box-shadow: 5px 6px 11px 8px #77987b;
+      -webkit-box-shadow: #369e2a;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: cursive;
+      border: 2px solid #97ab98;
+      top: 304px;
+      position: relative;
+      padding: 20px;
+      cursor: pointer;
+      margin: 2% auto;
+      left: 225px;
+  }
+
+  .homebutton:hover {
+      background-color: #19b117;
+      border: 2px solid #97ab98;
+      box-shadow: 5px 6px 11px 8px #77987b;
+  }
